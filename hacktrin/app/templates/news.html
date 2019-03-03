@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+</head>
+  <link rel="stylesheet" href="static/css/styles.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<body>
+
+    <center>
+  <div class="jumbotron">
+    <h1 class="display-4">We Are Women</h1>
+<!-- Tab links -->
+  <a class="btn btn-light btn-lg" href="/hacktrin" role="button">Home</a>
+  <a class="btn btn-light btn-lg" href="/page2" role="button">Events</a>
+  <a class="btn btn-light btn-lg" href="#" role="button">News</a>
+<div class="container">
+
+</center>
+<center>
+{%for info in data%}
+
+<h4>{{info}}</h4>
+
+{%endfor%}
+</center>
+
+</body>
+
+
+</html>
